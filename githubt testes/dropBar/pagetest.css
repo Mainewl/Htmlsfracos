@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+
+.Textpag3{
+    border: solid, rgba(255, 255, 255, 0);
+    border-radius: 25px;
+    text-align: center;
+    color: #5c0404;
+    font-size: 20px;
+    font-weight: 600;
+    height: 40px;
+    width: 150px;
+    transition: color 1.5s ease-in-out, box-shadow 2s ease-in-out;
+    position: relative;
+}
+.Textpag3:hover{
+    background-color: #ffffff00;
+    box-shadow: inset 140px 0 0 0 #ffffff;
+}
+.backgpag3{
+    background: #5c040400;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    position: sticky;
+    top: 0;
+}
+.butefctpag3{
+    box-shadow: inset 0 0 0 0 #434750;    
+    border-color:#434750;  
+    border-style: solid;
+    background-color: #434750;
+    padding: 0 .25rem;
+    transition: color 1.5s ease-in-out, box-shadow 2s ease-in-out;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 40px;
+    width: 200px; 
+    position: relative;
+    top: 50px;
+    left: 252;
+}
+.butefctpag3:hover {
+    background: #434750;
+    box-shadow: inset 180px 0 0 0 rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+
+body{
+    background: #434750;
+    font-family: "Oswald", sans-serif;
+}
+
+.Text{
+    font-size: 35;
+    color: #ffffff;
+}
+
+
+.backg{
+    background: #32353c00;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    position: sticky;
+    top: 0;
+}
+.mainbackg{
+    background: #000000;
+    height: 300px;
+    width: 790px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+
+.portifolio{
+    border-radius: 25px;
+    border: none;
+    /* border-style: solid; */
+    /* border-color: #ffffff00; */
+    box-shadow: inset 0 0 0 0 #434750;
+    color: #28909b;
+    background-color: #434750;
+    font-size: 20px;
+    font-weight: 600;
+    height: 40px;
+    width: 160px;
+    transition: color 1s ease-in-out, box-shadow 2s ease-in-out;
+    position: relative;
+    right: 0;
+}
+.portifolio:hover{
+    background-color: #434750;
+    box-shadow: inset 140px 0 0 0 #ffffff;
+}
+
+
+.butefct{
+    box-shadow: inset 0 0 0 0 #434750;    
+    border-color:#ffffff00;  
+    background-color: #434750;
+    border-style: solid;
+    padding: 0 .25rem;
+    transition: color 1.5s ease-in-out, box-shadow 2s ease-in-out;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 40px;
+    width: 150px; 
+    position: relative;
+    left: 430;
+}
+.butefct:hover {
+    background-color: #434750;
+    box-shadow: inset 130px 0 0 0 #f8f8f8;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+

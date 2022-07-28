@@ -1,0 +1,57 @@
+    .LDA{
+        margin: auto;
+        height: auto;
+        width: auto;
+        border-right: 0.5px #020202 solid;
+        border-top: 0.5px #020202 solid;
+        border-bottom: 0.5px #020202 solid;
+        border-left: 0.5px #020202 solid ;
+        font-size: 10.0pt;
+        display: table;
+        background-color: rgb(255, 255, 255);
+        color: #3554ff}
+
+    .REC{
+        word-break: break-all;
+        font-family: "Segoe UI", sans-serif;
+        font-style: normal;
+        margin: 0.3%;
+        width: 40%;
+        border-right: 1px #020202 solid;
+        border-top: 1px #020202 solid;
+        border-bottom: 1px #020202 solid;
+        border-left: 1px #020202 solid ;
+        font-size: 8.0pt;
+        display: table;
+
+    }
+
+    .REC2{
+        
+        word-break: break-all;
+        font-family: "Segoe UI", sans-serif;
+        font-style: normal;    
+        width: 300pt;
+        border-right: 1px #020202 solid;
+        border-top: 1px #020202 solid;
+        border-bottom: 1px #020202 solid;
+        border-left: 1px #020202 solid ;
+        font-size: 9.0pt;
+        display: table;
+        position: relative;
+        left: 25.5rem;
+        bottom: 12.5pt;
+    }
+
+    .REC3{
+        font-size: 9.0;
+        font-family: "Segoe UI", sans-serif;
+        font-style: normal;
+        word-break: break-all;
+
+
+
+    }
+
+    
+        

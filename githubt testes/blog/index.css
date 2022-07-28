@@ -1,0 +1,10 @@
+body, html
+{
+    background-image: linear-gradient(to top, #96fbc3b1 0%, #f9f586 50%);
+}
+
+h1
+{
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}

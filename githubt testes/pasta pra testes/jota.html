@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jota.js"></script>
+    <style>
+        #somet{
+            width: auto;
+            height: auto;
+            font-weight: bold;
+            background-color: aliceblue;
+            padding: 15px;
+            border: 1px, solid;
+            border-color: goldenrod;
+        }
+
+        #butbut{
+            position: absolute;
+            left: 120px;
+            border-color: goldenrod;
+            background-color: lightgrey;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="somet" contenteditable="true">something possible editable</div>
+    <button id="butbut" type="button" onclick="change">confirm</button>
+</body>
+
+
+
+
+
+
+
+
+<script>
+   
+
+    var somet = document.getElementById('somet');
+
+    somet.innerHTML = localStorage.getItem('somet');
+
+    somet.addEventListener('blur', function() {
+        localStorage.setItem('somet', this.innerHTML);
+    });
+
+    // function change()
+    // {
+    //     const somet = document.getElementById('somet')
+
+    //     console.log(somet.contentEditable)
+    //     console.log(somet.isContentEditable)
+
+    //   var click =  somet.contentEditable = false
+    //     somet[click].onclick = change
+    // }
+    
+</script>
+</html>
